@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: aqua;
+    background-color: #4facac;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+/*rgba red 0, 255 green , blue 0,255 alpha 1.0, 0*/
+
+h1{
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    font-size: 50px;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
