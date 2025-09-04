@@ -6,6 +6,28 @@ header{
     padding: 20px;
 }
 
+nav{
+
+}
+
+nav ul{
+
+}
+
+nav ul li{
+
+}
+
+nav ul li a{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+
+}
+
 body{
     background-color: rgba(255, 255, 255, 1.0);
 }
