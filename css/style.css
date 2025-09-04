@@ -7,15 +7,19 @@ header{
 }
 
 nav{
-
+    margin: 0 auto;
 }
 
 nav ul{
+    display: grid; 
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
 nav ul li{
-
+    list-style: none;
+    display: inline-block; /*va a ponder los element next to each other para el menu */ 
 }
 
 nav ul li a{
@@ -25,7 +29,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-
+    color: white;
 }
 
 body{
