@@ -36,12 +36,12 @@ nav ul li{
 
 nav ul li a{
     font-size: 20px;
-    color: rgb(255, 149, 0);
+    color: rgb(111, 109, 110);
     text-decoration: none;
 }
 
 nav ul li a:hover{
-    color: white;
+    color: rgb(240, 135, 61);
 }
 
 body{
