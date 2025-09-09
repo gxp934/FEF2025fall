@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 header{
-    background-color: brown;
+    background-color: rgb(196, 195, 195);
     width: 960px;
     padding: 20px;
 }
@@ -24,7 +24,7 @@ nav ul li{
 
 nav ul li a{
     font-size: 20px;
-    color: blue;
+    color: rgb(255, 149, 0);
     text-decoration: none;
 }
 
