@@ -4,60 +4,81 @@
     padding: 0;
     box-sizing: border-box; /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
 }
+body {
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+}
+
+/* Contenedor principal centrado */
+main, header, nav, footer {
+    max-width: 960px;   /* ancho máximo */
+    margin: 0 auto;     /* centrado horizontal */
+    padding: 20px;      /* espacio interno */
+}
+
+/* Header */
 header {
-    
-    width: 960px;
-    margin: 0px auto;
-    background-color: lightgray ; 
+    background-color: lightgray;
     padding: 30px;
-}
-header h1{
-    text-align: center;
+    text-align: center; /* centra el h1 */
 }
 
-nav{
-    width: 960px;
-    margin: 0 auto;
-    padding: 30px;
-    margin-left: -30px;
+header h1 {
+    font-size: 50px;
+    color: #000;
 }
 
-nav ul{
-    display: grid; 
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-nav ul li{
+/* Nav */
+nav ul {
+    display: flex; /* mejor que grid para menú horizontal simple */
+    justify-content: center; /* centra los elementos del menu */
+    gap: 20px; /* espacio entre los links */
     list-style: none;
-    display: inline-block; /*va a ponder los element next to each other para el menu */ 
+    padding: 0;
 }
 
-nav ul li a{
+nav ul li a {
     font-size: 20px;
     color: rgb(111, 109, 110);
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(240, 135, 61);
 }
 
-body{
-    background-color: rgba(255, 255, 255, 1.0);
+/* Secciones */
+section {
+    margin-bottom: 40px; /* espacio entre secciones */
+    text-align: center; /* centra texto dentro de cada sección */
 }
 
-/*rgba red 0, 255 green , blue 0,255 alpha 1.0, 0*/
-
-h1{
-    color: rgb(0, 0, 0);
-    font-family:sans-serif;
-    font-size: 50px;
-}
-h2{
-    font-family: "Montserrat", sans-serif;
-    color: rgb(73, 74, 10);
+/* H2 */
+h2 {
     font-size: 30px;
+    color: rgb(73, 74, 10);
+    margin-bottom: 20px;
 }
 
+/* Listas dentro de sección centradas */
+ul, ol {
+    display: inline-block; /* para que se centre con text-align */
+    text-align: left; /* mantiene listas alineadas a la izquierda */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Imágenes centradas */
+img {
+    display: block;
+    margin: 10px auto; /* centra horizontalmente */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    margin-top: 40px;
+}
